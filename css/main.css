@@ -1,0 +1,65 @@
+/*Margin and padding of the body element*/
+body {
+	margin: 0;
+	padding: 0;
+}
+/*padding of list items on the top of the page*/
+ul {
+	padding: 5px 0px 5px 0px;
+}
+/*Style of the heading element*/
+h1 {font-size: 5em;
+	margin: 0;
+	padding:25px;
+	}
+/*Style of nav element*/
+nav {background: #546CE1;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	}
+/*list itmes on the top of the page*/
+li {background: black;
+	display: inline;
+	color: yellow;
+	margin: 10px 0% 10px 0%;
+	padding: 15px 100px 15px 100px
+	}
+/*text background on the list items on the top of the page*/
+a {background: black;
+	text-decoration: underline overline; 
+	}
+/*background color in the mid section of the page*/
+section {background: yellow;
+		text-align:center;
+		}
+/*Test positioning of the superhero names and quotes below their picture*/
+div.box {display: inline-block;
+		width: 30%;}
+/*size of superhero photos*/
+img {width: 100%}
+
+/*style of superhero quotes*/
+p {background: white;
+   border:solid;
+	padding: 5px
+	}
+/*Enlarging first letter of superhero quotes*/
+p::first-letter { 
+    font-size: 40px;
+    }
+/*background style of the footer element*/
+footer {background: red;
+		padding:1px;
+		text-align: center;}
+/*text style of the list element within the footer*/
+footer li {background: black;
+			display:inline;
+			margin:100px;
+			padding:5px;}
+/*text color and style of text in the footer element*/
+footer a {color:white;
+		text-decoration: underline overline dotted yellow }
+
+
+
+
